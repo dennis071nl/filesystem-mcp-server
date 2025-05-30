@@ -63,4 +63,4 @@ USER service-user
 # EXPOSE 3000
 
 # Define the command to run the application using the correct build output path ('dist')
-CMD ["mcp-proxy", "node", "dist/index.js"]
+CMD ["node", "dist/index.js"]
